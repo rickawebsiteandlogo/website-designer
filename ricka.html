@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Website Designer — Build a Better Online Presence</title>
+  <meta name="description" content="Professional website designer services: custom websites, UI/UX, eCommerce, SEO and branding. Learn what to expect and how to hire the right designer." />
+  <style>
+    /* Simple, modern responsive CSS */
+    :root{
+      --accent:#0b79d0;
+      --bg:#f6f9fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --radius:14px;
+      --max:1100px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#0f1724;line-height:1.55}
+    .wrap{max-width:var(--max);margin:40px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center;margin-bottom:24px}
+    .logo{
+      width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#06b6d4);
+      display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px;
+      box-shadow:0 8px 24px rgba(11,121,208,0.18)
+    }
+    h1{font-size:clamp(22px,3.3vw,36px);margin:0 0 6px}
+    p.lead{margin:0;color:var(--muted);font-size:1rem}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:22px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 6px 18px rgba(15,23,36,0.06)}
+    .services{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
+    .pill{background:#eef6ff;padding:8px 12px;border-radius:999px;font-weight:600;font-size:0.92rem;color:var(--accent)}
+    .section{margin-top:18px}
+    .cta{display:flex;gap:12px;margin-top:18px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--accent);color:white;box-shadow:0 8px 20px rgba(11,121,208,0.16)}
+    .btn-outline{border:2px solid var(--accent);color:var(--accent);background:transparent}
+    .meta{font-size:0.9rem;color:var(--muted)}
+    .feature-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+    @media (max-width:600px){.feature-list{grid-template-columns:1fr}}
+    footer{margin-top:28px;color:var(--muted);font-size:0.9rem;text-align:center}
+    .badge{display:inline-block;padding:6px 10px;border-radius:8px;background:#fff;box-shadow:0 6px 14px rgba(2,6,23,0.04);font-weight:600}
+    .lead-quote{font-style:italic;color:#0f1724;border-left:4px solid var(--accent);padding-left:12px;margin:14px 0}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <div class="logo" aria-hidden="true">RW</div>
+      <div>
+        <h1>Website Designer — Build a Better Online Presence</h1>
+        <p class="lead">Custom websites, memorable branding, and UX that converts. Learn how professional designers structure projects and why they matter.</p>
+      </div>
+    </header>
+
+    <div class="grid" role="article">
+      <article class="card">
+        <div class="meta">Updated: <time datetime="2025-09-29">September 29, 2025</time></div>
+
+        <section class="section">
+          <h2>What a website designer does</h2>
+          <p>Website designers do more than craft attractive pages — they build digital experiences that communicate your brand, guide user decisions, and support marketing goals. From logo and brand elements to mobile-first pages and SEO-ready markup, professional design ensures your site works for users and search engines alike.</p>
+        </section>
+
+        <section class="section">
+          <h2>Core services</h2>
+          <div class="services" aria-hidden="false">
+            <span class="pill">Custom Website Design</span>
+            <span class="pill">UI / UX Design</span>
+            <span class="pill">E-commerce</span>
+            <span class="pill">SEO</span>
+            <span class="pill">Social Media</span>
+            <span class="pill">Maintenance</span>
+          </div>
+
+          <div class="feature-list">
+            <div class="card" style="padding:14px">
+              <strong>Mobile-first</strong>
+              <p class="meta">Designs optimized for every device and screen size.</p>
+            </div>
+            <div class="card" style="padding:14px">
+              <strong>Performance</strong>
+              <p class="meta">Fast-loading pages and accessibility-minded markup.</p>
+            </div>
+            <div class="card" style="padding:14px">
+              <strong>Branding</strong>
+              <p class="meta">Logo and identity systems that translate across touchpoints.</p>
+            </div>
+            <div class="card" style="padding:14px">
+              <strong>Conversion-focused</strong>
+              <p class="meta">Layouts and CTAs designed to turn visitors into customers.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Typical design process</h2>
+          <p class="lead-quote">Discovery → Strategy → Design → Build → Test → Launch → Support</p>
+          <p>Professional teams follow a repeatable process so the project stays on-schedule and measurable. Discovery collects goals and audience insights; design shapes the experience; development brings it to life; testing ensures quality before launch.</p>
+        </section>
+
+        <section class="section">
+          <h2>How to choose a designer</h2>
+          <ol>
+            <li>Review portfolio & case studies — look for outcomes, not just screenshots.</li>
+            <li>Ask about process, revisions, and testing coverage.</li>
+            <li>Confirm who will own design assets and the delivered code.</li>
+            <li>Check for SEO/performance and ongoing support options.</li>
+          </ol>
+        </section>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="https://rickawebsitesandlogos.com/website-design/" target="_blank" rel="noopener">See Website Design Services</a>
+          <a class="btn btn-outline" href="https://rickawebsitesandlogos.com/" target="_blank" rel="noopener">Visit Ricka Websites & Logos</a>
+        </div>
+
+        <p class="meta" style="margin-top:10px;">Prefer a local agency? Try searching <a href="https://rickawebsitesandlogos.com/" target="_blank" rel="noopener"><strong>website designer near me</strong></a>.</p>
+      </article>
+
+      <aside class="card" aria-label="Quick contact and summary">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="badge">Pro Tip</div>
+          <div style="flex:1">
+            <strong>Start with goals</strong>
+            <p class="meta">Define top 3 goals (e.g., leads, sales, signups) before design begins.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Why choose an agency</h3>
+          <p class="meta">An agency combines design and marketing so your site not only looks great but performs. Look for proven work in your industry.</p>
+        </div>
+
+        <div class="section">
+          <h3>Request a quote</h3>
+          <p class="meta">Ready to start? Send design requirements and any example sites to the agency for a scoped quote.</p>
+          <div style="margin-top:12px">
+            <a class="btn btn-primary" href="https://rickawebsitesandlogos.com/contact/" target="_blank" rel="noopener">Request Quote</a>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Learn more</h3>
+          <p class="meta">Read guides and articles to compare builders, pricing, and timelines.</p>
+          <a class="btn btn-outline" href="https://rickawebsitesandlogos.com/articles/" target="_blank" rel="noopener">Read Articles</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="card" style="margin-top:22px">
+      <p class="meta">Content informed by Ricka Websites and Logos — services, mission, and process. Sources: Ricka About, Services, Logo, and Website Design pages.</p>
+    </footer>
+  </main>
+</body>
+</html>
